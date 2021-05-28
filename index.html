@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--
+Template Name: Basend
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<head>
+<title>Extreme Sports</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.jpeg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1><a href="index.html"><i class="fa fa-bell-o"></i></a></h1>
+      </div>
+
+      <!-- ################################################################################################ -->
+      <!-- Display the countdown timer in an element -->
+      <p id="demo"></p>
+
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("June 08, 2021 17:00:00").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
+
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a class="drop" href="#">Activity</a>
+            <ul>
+              <li><a href="#">Watersports</a></li>
+              <li><a href="#">Land sports</a></li>
+              <li><a href="#">Climbing</a></li>
+              <li><a href="#">Air sports</a></li>
+              <li><a href="#">Motor Sports</a></li>
+            </ul>
+          </li>
+          <li><a class="drop" href="#">Level</a>
+            <ul>
+              <li><a href="#">Beginner</a></li>
+              <li><a href="#">Intermediate</a></li>
+              <li><a href="#">Proficient</a></li>
+              <li><a href="#">Expert</a></li>
+            </ul>
+          </li>
+          <li><a class="drop" href="#">Membership</a>
+            <ul>
+              <li><a href="#">Free Trial</a></li>
+              <li><a href="#">Weekly</a></li>
+              <li><a href="#">Monthly</a></li>
+              <li><a href="#">Yearly</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <section id="pageintro" class="hoc clear">
+    <div> 
+      <!-- ################################################################################################ -->
+      <h2 class="heading">MTB</h2>
+      <p>Five ways to improve your mountain bike riding skills.</p>
+      <footer><a class="btn" href="#">Read More</a></footer>
+      <!-- ################################################################################################ -->
+    </div>
+  </section>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Extreme Sports</h6>
+      <p>Action sports, adventure sports or extreme sports are activities perceived as involving a high degree of risk.</p>
+    </div>
+    <ul class="nospace group services">
+      <li class="one_quarter first">
+        <article><a href="#"><i class="fa fa-3x fa-500px"></i></a>
+          <h6 class="heading font-x1"><a href="#">Benifit</a></h6>
+          <li>Weight loss</li>
+          <li>Stress reliever</li>
+          <li>Train your mentality</li>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="#"><i class="fa fa-3x fa-lastfm"></i></a>
+          <h6 class="heading font-x1"><a href="#">Apporach</a></h6>
+          <li>Explore by oneself</li>
+          <li>Follow the coach</li>
+          <li>Tram up with friends</li>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="#"><i class="fa fa-3x fa-puzzle-piece"></i></a>
+          <h6 class="heading font-x1"><a href="#">Security</a></h6>
+          <li>Warm Up</li>
+          <li>One Step at a Time</li>
+          <li>Wear the Right Gear</li>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="#"><i class="fa fa-3x fa-ravelry"></i></a>
+          <h6 class="heading font-x1"><a href="#">SOS</a></h6>
+          <li>Ask for help</li>
+          <li>Nearby hospital</li>
+          <li>Emergency number</li>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">TThe Most Popular Extreme Sports Of This Season</h6>
+    </div>
+    <div class="group excerpts">
+      <article class="one_third first">
+        <div class="hgroup">
+          <h6 class="heading">Dirt Biking</h6></div>
+        <figure><a href="#"><img src="images/demo/dirt-bike.jpeg" alt=""></a></figure>
+        <div class="txtwrap">
+          <p>If you’re feeling the need for speed, then head out to Sheung Shui where the MX Club offers dirt-biking courses for all levels.</p>
+        </div>
+        <footer>
+          <ul class="faico clear">
+            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+          </ul>
+        </footer>
+      </article>
+      <article class="one_third">
+        <div class="hgroup">
+          <h6 class="heading">Paragliding</h6></div>
+        <figure><a href="#"><img src="images/demo/paragliding.jpeg" alt=""></a></figure>
+        <div class="txtwrap">
+          <p>There’s no better way to get a sense of the size and landscape of a city than from the air, so why not try paragliding for a bird’s eye view over Hong Kong.</p>
+        </div>
+        <footer>
+          <ul class="faico clear">
+            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+          </ul>
+        </footer>
+      </article>
+      <article class="one_third">
+        <div class="hgroup">
+          <h6 class="heading">Wakeboarding</h6></div>
+        <figure><a href="#"><img src="images/demo/wakeboarding.jpeg" alt=""></a></figure>
+        <div class="txtwrap">
+          <p>Fancy yourself a bit of an acrobat?In this water sport, you’ll perform aerial manoeuvers on a board while being pulled behind a motorboat.</p>
+        </div>
+        <footer>
+          <ul class="faico clear">
+            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+          </ul>
+        </footer>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper overlay coloured">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Land Sports</h6>
+    </div>
+    <div class="group excerpts">
+      <article class="one_third first">
+        <figure><img src="images/demo/Skateboarding.jpeg" alt="">
+          <figcaption>
+            <time datetime="2021-07-03T08:15+00:00"><strong>07</strong> <em>Mar</em></time>
+          </figcaption>
+        </figure>
+        <div class="hgroup">
+          <h4 class="heading">Skateboarding</h4>
+          <ul class="nospace meta">
+            <li>by <a href="#">Wendy</a></li>
+            <li>in <a href="#">Land Sports</a></li>
+          </ul>
+        </div>
+        <div class="txtwrap">
+          <p>Skateboarding involves riding on a skateboard to perform jumps and other tricks, often on a ramp.</p>
+        </div>
+        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+      </article>
+      <article class="one_third">
+        <figure><img src="images/demo/Volcano_Boarding.jpeg" alt="">
+          <figcaption>
+            <time datetime="2022-01-01T08:15+00:00"><strong>01</strong> <em>Jan</em></time>
+          </figcaption>
+        </figure>
+        <div class="hgroup">
+          <h4 class="heading">Volcano Boarding</h4>
+          <ul class="nospace meta">
+            <li>by <a href="#">William</a></li>
+            <li>in <a href="#">Land Sports</a></li>
+          </ul>
+        </div>
+        <div class="txtwrap">
+          <p>Surfers usually hike up to the top of the volcano and surf down either sitting or standing on a board.</p>
+        </div>
+        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+      </article>
+      <article class="one_third">
+        <figure><img src="images/demo/Parkour.jpeg" alt="">
+          <figcaption>
+            <time datetime="2032-04-04T08:15+00:00"><strong>04</strong> <em>Apr</em></time>
+          </figcaption>
+        </figure>
+        <div class="hgroup">
+          <h4 class="heading">Parkour</h4>
+          <ul class="nospace meta">
+            <li>by <a href="#">Tony</a></li>
+            <li>in <a href="#">Land Sports</a></li>
+          </ul>
+        </div>
+        <div class="txtwrap">
+          <p>participants must use running, jumping to their greatest ability in order to overcome urban hurdles. </p>
+        </div>
+        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Air Sports</h6>
+    </div>
+    <div class="group excerpts">
+      <article class="one_third first">
+        <figure><img src="images/demo/Zip-lining.jpeg" alt="">
+          <figcaption>
+            <time datetime="2019-17-02T08:15+00:00"><strong>17</strong> <em>Feb</em></time>
+          </figcaption>
+        </figure>
+        <div class="hgroup">
+          <h4 class="heading">Zip-lining</h4>
+          <ul class="nospace meta">
+            <li>by <a href="#">Daniel</a></li>
+            <li>in <a href="#">Air Sprots</a></li>
+          </ul>
+        </div>
+        <div class="txtwrap">
+          <p>The participant sits on the pulley and is propelled by gravity from one end of the cable to the other.</p>
+        </div>
+        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+      </article>
+      <article class="one_third">
+        <figure><img src="images/demo/2.jpeg" alt="">
+          <figcaption>
+            <time datetime="2045-05-04T08:15+00:00"><strong>05</strong> <em>Apr</em></time>
+          </figcaption>
+        </figure>
+        <div class="hgroup">
+          <h4 class="heading">Skydiving</h4>
+          <ul class="nospace meta">
+            <li>by <a href="#">Mira</a></li>
+            <li>in <a href="#">Air sports</a></li>
+          </ul>
+        </div>
+        <div class="txtwrap">
+          <p>Skydiver jumping out of an airplane midflight and using a parachute to land safely to the ground.</p>
+        </div>
+        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+      </article>
+      <article class="one_third">
+        <figure><img src="images/demo/Downhill-Mountain-Biking.jpeg" alt="">
+          <figcaption>
+            <time datetime="2045-09-07T08:15+00:00"><strong>09</strong> <em>Jul</em></time>
+          </figcaption>
+        </figure>
+        <div class="hgroup">
+          <h4 class="heading">Downhill Mountain Biking</h4>
+          <ul class="nospace meta">
+            <li>by <a href="#">Vanessa</a></li>
+            <li>in <a href="#">Air Sprots</a></li>
+          </ul>
+        </div>
+        <div class="txtwrap">
+          <p>Downhill mountain biking involves practising on steep, rough hills with jumps.</p>
+        </div>
+        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/02.jpeg');">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">News Center</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-bookmark"></i> China's most terrifying tourist attractions</li>
+        <li><i class="fa fa-bookmark"></i> Autism affects ability to smell fear, finds skydiver sweat study</li>
+        <li><i class="fa fa-bookmark"></i> Skydiver to jump from plane without a parachute on live television</li>
+        <li><i class="fa fa-bookmark"></i> Women surfers to compete in America's most dangerous big-wave event</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Contact Us</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+            No. 1 &amp; 1 Stockdale Ave, Clayton, 3168, VIC
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +61 (123) 456 7890</li>
+        <li><i class="fa fa-fax"></i> +04 321 098 76</li>
+        <li><i class="fa fa-envelope-o"></i> fit1050@example.com</li>
+      </ul>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Membership Services</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-commenting"></i> Centre</li>
+        <li><i class="fa fa-commenting"></i> Profit</li>
+        <li><i class="fa fa-commenting"></i> Consultation</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved - <a href="#">Assignment 3</a></p>
+    <p class="fl_right">Template by <a target="_blank">Chen Zong</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
